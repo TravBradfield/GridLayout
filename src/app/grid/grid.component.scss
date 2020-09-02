@@ -1,0 +1,28 @@
+.grid-card {
+    max-width: 600px;
+
+    table {
+        border-spacing: 0;
+        width: 100%;
+        text-align: center;
+        justify-items: center;
+
+        .grid-block-div {
+            height: 50px; 
+            width: 89px;
+            display:table-cell;
+            vertical-align: middle;
+            border: 1px solid #392745;
+        }
+        .set-bg-colour {
+            background: skyblue;
+        }
+        .set-bg-red {
+            background: red;
+        }
+    }
+
+    mat-slider {
+        width: 100%;
+    }
+}
